@@ -1,0 +1,77 @@
+@charset "UTF-8";
+@charset "UTF-8";
+h1 {
+    text-align: center;
+    color: #223030;
+    background-color: #EFEFE9;
+    border-radius: 10px;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#navigation ul {
+    list-style-type: none;
+    text-align: center;
+    float: none;
+    margin-left: 160px;
+    margin-top: 60px;
+    font-size: 20px;
+}
+#navigation ul li {
+    float: none;
+    width: 80%;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #E8D9CD;
+    margin-bottom: 10px;
+	border-radius: 10px;
+
+}
+#navigation ul li a {
+    background-color: #E8D9CD;
+    color: #523D35;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+#navigation ul li a:hover {
+    background-color: #BBA58F;
+    text-decoration: none;
+	border-radius: 10px;
+}
+#footer {
+    text-align: right;
+    padding-right: 9px;
+	color: #223030;
+}
+#mainContent {
+    text-align: center;
+    color: #000000;
+    font-size: 30px;
+}
+#mainContent2 p {
+    text-align: center;
+    font-size: 20px;
+}
+body {
+    background: linear-gradient(-45deg, #223030, #959d90, #bba58f, #e8d9cd );
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
